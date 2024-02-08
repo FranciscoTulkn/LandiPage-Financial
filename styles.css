@@ -1,0 +1,56 @@
+/* Google fonts - Monserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* bOOTSTRAP CLASSES */
+.bg-primary {
+    background: #380d62 !important;
+}
+
+/* Utility classes */
+
+.py-6 {
+    padding: 120px 0;
+}
+
+header {
+    background-image: linear-gradient(to right,
+     #380d62, #10054a);
+}
+
+.steps {
+    background-color: #380d62 !important;
+}
+
+.bg-icon{
+    background: #10054a ;
+}
+
+@media (max-width:768px) {
+    .py-6 {
+        padding: 50px 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    
+    .steps .pb-4 {
+        padding-right: 80px !important;
+    }
+
+    .nav-link {
+        padding: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav-link:hover {
+        background: #0b0333;
+    }
+}
